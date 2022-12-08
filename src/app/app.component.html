@@ -1,0 +1,32 @@
+<!-- <table border="1">
+    <tr>
+        <th>Emp Code</th>
+        <th>Emp Name</th>
+        <th>Salary</th>
+        <th>Gender</th>
+        <th>Date of birth</th>
+    </tr>
+    <tr *ngFor="let employee of employees">
+        <td> {{employee.code}} </td>
+        <td> {{employee.name | custompipe:employee.gender}} </td>
+        <td> {{employee.salary | currency}} </td>
+        <td> {{employee.gender}} </td>
+        <td> {{employee.dob | date:'dd/mm/yyyy'}} </td>
+    </tr>
+</table> -->
+<!-- <div>
+    <h2 #headline>This is the Viewchild Tutorial</h2>
+</div>
+
+<div class="container">
+    <div>
+        <h3>All userr</h3>
+        <app-allusers></app-allusers>
+    </div>
+    <div>
+        <app-userdetails></app-userdetails>
+    </div>
+</div>
+<app-parent></app-parent>
+<app-viewchild></app-viewchild> -->
+<router-outlet></router-outlet>
